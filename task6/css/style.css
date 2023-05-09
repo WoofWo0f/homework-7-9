@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
+.wrapper {
+  margin: auto;
+}
+.content {
+  margin: auto;
+  max-width: 1500px;
+  background-image: linear-gradient(#fd749b -13.56%, #281ac8 158.3%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shape__image-top {
+  width: 98.99vw;
+  transform: translate(0, -100px);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex: 1 1 auto;
+  position: relative;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.main__text {
+  max-width: 542px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0 100px 0;
+}
+.main__text-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #fff;
+  max-width: 327px;
+  position: relative;
+}
+.main__text-title::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 0px;
+  border: 7px solid #fd749b;
+  border-radius: 5px;
+  left: 41%;
+  top: 120%;
+}
+.main__text-subtitle {
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+  margin-top: 73px;
+}
+
+.main__review {
+  color: #333;
+  max-width: 410px;
+  display: flex;
+  justify-content: space-between;
+  background: #c4c4c4d2;
+  border-radius: 15px;
+  padding: 20px 30px;
+  position: relative;
+  left: 55%;
+  top: 100px;
+  z-index: 2;
+}
+.main__review::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 40px solid #c4c4c4d2;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  top: 35%;
+  left: -8.5%;
+}
+.main__review-info {
+  display: flex;
+  flex-direction: column;
+}
+.main__review-user {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.main__review-rating {
+  display: flex;
+  flex-direction: column;
+}
+.main__review-stars {
+  display: flex;
+  gap: 5px;
+}
+
+.main__review-conclusion {
+  font-weight: 700;
+  font-size: 12px;
+}
+.main__review-content {
+  font-size: 12px;
+}
+.main__bubles {
+  display: flex;
+}
+.bubble__image {
+  background-color: #d8d8d8;
+  position: absolute;
+  border-radius: 50%;
+}
+.bubble__image:nth-child(1) {
+  width: 84px;
+  height: 84px;
+  transform: translate(-300px, 0);
+}
+.bubble__image:nth-child(2) {
+  width: 137px;
+  height: 137px;
+  transform: translate(-170px, -200px);
+}
+.bubble__image:nth-child(3) {
+  width: 45px;
+  height: 45px;
+}
+.bubble__image:nth-child(4) {
+  width: 68px;
+  height: 68px;
+  transform: translate(30px, -180px);
+}
+.bubble__image:nth-child(5) {
+  width: 58px;
+  height: 58px;
+  transform: translate(100px, -70px);
+}
+.bubble__image:nth-child(6) {
+  width: 84px;
+  height: 84px;
+  transform: translate(170px, 0px);
+}
+.bubble__image:nth-child(7) {
+  width: 65px;
+  height: 65px;
+  transform: translate(200px, -170px);
+}
+.bubble__image:nth-child(8) {
+  width: 84px;
+  height: 84px;
+  transform: translate(360px, -90px);
+}
+.bubble__image:nth-child(9) {
+  width: 45px;
+  height: 45px;
+  transform: translate(500px, -35px);
+}
+.bubble__image:nth-child(10) {
+  width: 84px;
+  height: 84px;
+  transform: translate(530px, -190px);
+}
+.bubble__image:nth-child(11) {
+  width: 84px;
+  height: 84px;
+  transform: translate(540px, 90px);
+}
+.bubble__image:nth-child(12) {
+  width: 84px;
+  height: 84px;
+  transform: translate(685px, -50px);
+}
+.bubble__image:nth-child(13) {
+  width: 84px;
+  height: 84px;
+  transform: translate(750px, -230px);
+}
+.bubble__image:nth-child(14) {
+  width: 131px;
+  height: 155px;
+  transform: rotate(250deg);
+  background-image: linear-gradient(290deg, #fd749b -13.56%, #281ac8 158.3%);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  top: -70px;
+  left: -300px;
+}
+.bubble__image:nth-child(15) {
+  width: 77px;
+  height: 91px;
+  transform: rotate(250deg);
+  background-image: linear-gradient(290deg, #fd749b -13.56%, #281ac8 158.3%);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  top: 600px;
+  left: 820px;
+}
+.shape__image-bottom {
+  width: 98.96vw;
+  transform: rotateX(180deg);
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
