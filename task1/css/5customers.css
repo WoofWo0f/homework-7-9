@@ -1,0 +1,64 @@
+.customers {
+  display: flex;
+  flex-direction: column;
+}
+.customers__reviews {
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+}
+.customers__review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 33%;
+}
+.customers__review-content {
+  display: flex;
+  max-width: 370px;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 35px 20px;
+  color: #86878b;
+  line-height: 21px;
+  margin-top: 83px;
+  position: relative;
+}
+.customers__review-content::after {
+  content: "";
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  top: 100%;
+  left: 20%;
+  position: absolute;
+}
+.customers__profile {
+  display: flex;
+  margin-top: 66px;
+}
+.customers__profile-icon {
+  margin-right: 30px;
+}
+.customers__profile-header {
+  display: flex;
+  flex-direction: column;
+  transform: translate(0, 15px);
+}
+.customers__name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 15px;
+}
+.customers__position {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}

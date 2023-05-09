@@ -1,0 +1,89 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+}
+.tabs__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  max-width: 600px;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.tabs__list a {
+  flex-basis: 33.333%;
+  padding-top: 10px;
+  text-align: center;
+  border: 1px solid white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.tabs__list a:focus {
+  color: rgb(189, 32, 163);
+  font-weight: bold;
+  text-decoration: underline;
+  border: 1px solid #c6cbcd;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: none;
+  position: relative;
+}
+.tabs__list a:focus::after {
+  content: " ";
+  background: white;
+  width: 198px;
+  height: 1px;
+  bottom: -1px;
+  right: 0px;
+  position: absolute;
+}
+.tabs__list a:hover {
+  background-color: #c6cbcd;
+  cursor: pointer;
+}
+
+.tabs__content {
+  border: 1px solid #c6cbcd;
+  display: flex;
+  justify-content: end;
+}
+.tabs__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 30px 50px 100px;
+  max-width: 570px;
+}
+.tabs__info-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 124px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+}
+.tabs__info-text {
+  line-height: 21px;
+  font-size: 18px;
+}
+.tabs__info-text p:not(:last-child) {
+  margin-bottom: 40px;
+}
+.tabs__info-button {
+  margin-top: 30px;
+  background-color: #ec7979;
+}
+
+.tabs__info-button:hover {
+  background-color: rgb(116, 111, 111);
+}
+.tabs__info-button:active {
+  background-color: rgb(44, 39, 39);
+}

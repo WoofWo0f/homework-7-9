@@ -1,0 +1,29 @@
+.header {
+  background-color: #000;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  z-index: 2;
+}
+.header__container {
+  color: #fff;
+  max-width: 1225px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+}
+.logo {
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin-right: 23px;
+}
+.header__menu-link {
+  max-width: 114px;
+}

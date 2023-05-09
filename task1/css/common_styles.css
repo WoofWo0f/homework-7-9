@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--Common styles--*/
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 18;
+  font-style: normal;
+  font-weight: 400;
+}
+.wrapper {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.container {
+  max-width: 1170px;
+  padding: 0px 0.15px 0px 0.15px;
+  margin: 0 auto;
+}
+.main {
+  flex: 1 1 auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  height: 100vh;
+  margin: 20px 0;
+}
+.block__header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.block__title {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 40px;
+}
+.block__title::after {
+  content: " ";
+  width: 170px;
+  height: 1px;
+  bottom: 0;
+  left: 42%;
+  position: absolute;
+  background: #ec7979;
+}
+
+.block__subtitle {
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+}
+.button {
+  max-width: 270px;
+  height: 58px;
+  line-height: 25px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
