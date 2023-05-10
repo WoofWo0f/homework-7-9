@@ -2,8 +2,10 @@
   margin: 0;
   width: 98.96vw;
   height: 100vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(2, 1, 1, 0.2), rgba(0, 0, 0, 0.8)),
     url(../images/homepage_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .homepage__content {

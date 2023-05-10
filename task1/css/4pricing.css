@@ -3,10 +3,11 @@
   justify-content: space-between;
   color: #86878b;
   line-height: 21px;
-  height: 530px;
+  max-height: 530px;
   text-align: center;
-  align-items: flex-end;
   gap: 30px;
+  width: 100%;
+  align-items: baseline;
 }
 .pricing__column {
   display: flex;

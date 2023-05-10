@@ -29,7 +29,5 @@
 .socialmedia__links {
   display: flex;
   justify-content: space-between;
-  flex-basis: 80%;
-}
-.social__links {
+  gap: 20px;
 }

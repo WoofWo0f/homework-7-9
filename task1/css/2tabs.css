@@ -1,7 +1,6 @@
 .tabs {
   display: flex;
   flex-direction: column;
-  max-height: 80vh;
 }
 .tabs__list {
   list-style-type: none;

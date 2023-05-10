@@ -51,7 +51,8 @@ input::-ms-clear {
   display: none;
 }
 
-button {
+button,
+a {
   cursor: pointer;
 }
 
@@ -102,6 +103,8 @@ body {
   min-height: 100%;
 }
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1170px;
   padding: 0px 0.15px 0px 0.15px;
   margin: 0 auto;
@@ -154,9 +157,14 @@ section {
   line-height: 25px;
   color: #fff;
   font-family: "Open Sans";
+  font-size: 18px;
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid white;
+  border: 2px solid white;
+}
+.social__links {
+  display: flex;
+  justify-content: space-between;
 }
