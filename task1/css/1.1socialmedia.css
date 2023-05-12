@@ -1,12 +1,11 @@
 .socialmedia {
   margin-top: 0;
-  max-height: 140px;
   background: #f8efef;
 }
 .socialmedia__content {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding: 15px 0;
 }
 .socialmedia__info {
   display: flex;
@@ -24,7 +23,6 @@
   font-size: 18px;
   line-height: 21px;
   color: #86878b;
-  transform: translateY(35%);
 }
 .socialmedia__links {
   display: flex;

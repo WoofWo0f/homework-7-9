@@ -7,10 +7,6 @@
   color: #fff;
 }
 
-.design__header {
-}
-.block__header {
-}
 .design__title {
   color: #fff;
   position: relative;
@@ -32,6 +28,4 @@
   color: #fff;
   max-width: 370px;
   margin: auto;
-}
-.button {
 }

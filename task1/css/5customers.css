@@ -1,7 +1,9 @@
 .customers {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
+
 .customers__reviews {
   justify-content: space-between;
   display: flex;
@@ -23,7 +25,7 @@
   padding: 35px 20px;
   color: #86878b;
   line-height: 21px;
-  margin-top: 83px;
+  margin-top: 30px;
   position: relative;
 }
 .customers__review-content::after {

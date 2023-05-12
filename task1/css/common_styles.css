@@ -105,8 +105,9 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 1170px;
-  padding: 0px 0.15px 0px 0.15px;
+  max-width: 1200px;
+  padding: 0px 15px 0px 15px;
+  height: 100%;
   margin: 0 auto;
 }
 .main {
@@ -116,7 +117,6 @@ body {
   flex-direction: column;
 }
 section {
-  height: 100vh;
   margin: 20px 0;
 }
 .block__header {
@@ -167,4 +167,12 @@ section {
 .social__links {
   display: flex;
   justify-content: space-between;
+}
+.form__input {
+  border-bottom: 3px solid #bdbdbd;
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
 }
