@@ -51,7 +51,8 @@ input::-ms-clear {
   display: none;
 }
 
-button {
+button,
+a {
   cursor: pointer;
 }
 
@@ -102,8 +103,11 @@ body {
   min-height: 100%;
 }
 .container {
-  max-width: 1170px;
-  padding: 0px 0.15px 0px 0.15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 0px 15px 0px 15px;
+  height: 100%;
   margin: 0 auto;
 }
 .main {
@@ -113,7 +117,6 @@ body {
   flex-direction: column;
 }
 section {
-  height: 100vh;
   margin: 20px 0;
 }
 .block__header {
@@ -154,9 +157,22 @@ section {
   line-height: 25px;
   color: #fff;
   font-family: "Open Sans";
+  font-size: 18px;
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid white;
+  border: 2px solid white;
+}
+.social__links {
+  display: flex;
+  justify-content: space-between;
+}
+.form__input {
+  border-bottom: 3px solid #bdbdbd;
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
 }
