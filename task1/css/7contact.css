@@ -1,0 +1,43 @@
+.contact__header {
+  margin-bottom: 20px;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  margin-top: 50px;
+}
+.contact__form-inputs {
+  display: flex;
+  gap: 5%;
+}
+.contact__form-userinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 50%;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+.contact__form-usermessage {
+  height: 215px;
+  flex-basis: 50%;
+  align-self: flex-end;
+  resize: none;
+}
+.contact__form-button {
+  margin-top: 50px;
+  background: #ec7979;
+  align-self: center;
+  width: 370px;
+}
+@media (max-width: 600px) {
+  .contact__form-inputs {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+  .contact__form-usermessage {
+    width: 100%;
+    flex-basis: auto;
+  }
+}

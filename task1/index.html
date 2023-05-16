@@ -30,6 +30,9 @@
             ><a class="header__menu-link" href="#" alt="link">Reviews</a
             ><a class="header__menu-link" href="#" alt="link">Contact</a>
           </nav>
+          <picture class="header__burger"
+            ><img src="images/icons/burger_icon.svg" alt="burger"
+          /></picture>
         </div>
       </header>
       <main class="main">
@@ -38,8 +41,8 @@
             <div class="homepage__content">
               <div class="homepage__content-info">
                 <div class="homepage__logo logo">
-                  <img src="images/icons/ax_logo.svg" alt="" />
-                  <img src="images/icons/it_logo.svg" alt="" />
+                  <img src="images/icons/ax_logo.svg" alt="logo" />
+                  <img src="images/icons/it_logo.svg" alt="logo" />
                 </div>
                 <div class="homepage__header">
                   <h1 class="homepage__title">
@@ -51,7 +54,28 @@
                 </div>
                 <a href="" class="homepage__button button">Download</a>
               </div>
-              <form action="" class="homepage__form">form</form>
+              <form class="homepage__form" action="">
+                <p class="homepage__form-title">
+                  Try Your <span>Free</span> Trial Today
+                </p>
+                <div class="homepage__form-inputs">
+                  <input
+                    class="homepage__form-username form__input"
+                    type="text"
+                    placeholder="Name"
+                  />
+                  <input
+                    class="homepage__form-email form__input"
+                    type="text"
+                    placeholder="Email"
+                  /><input
+                    class="homepage__form-password form__input"
+                    type="password"
+                    placeholder="Password"
+                  />
+                </div>
+                <button class="homepage__form-button">Get Started</button>
+              </form>
             </div>
           </div>
         </section>
@@ -68,44 +92,64 @@
               <ul class="socialmedia__links social__links">
                 <li>
                   <a href="#" alt="icon"
-                    ><img src="images/icons/facebook_icon.svg" alt="icon"
+                    ><img
+                      class="socialmedia__link"
+                      src="images/icons/facebook_icon.svg"
+                      alt="icon"
                   /></a>
                 </li>
                 <li>
                   <a href="#" alt="icon"
-                    ><img src="images/icons/twitter_icon.svg" alt="icon"
+                    ><img
+                      class="socialmedia__link"
+                      src="images/icons/twitter_icon.svg"
+                      alt="icon"
                   /></a>
                 </li>
                 <li>
                   <a href="#" alt="icon"
-                    ><img src="images/icons/linkedin_icon.svg" alt="icon"
+                    ><img
+                      class="socialmedia__link"
+                      src="images/icons/linkedin_icon.svg"
+                      alt="icon"
                   /></a>
                 </li>
                 <li>
                   <a href="#" alt="icon"
-                    ><img src="images/icons/pinterest_icon.svg" alt="icon"
+                    ><img
+                      class="socialmedia__link"
+                      src="images/icons/pinterest_icon.svg"
+                      alt="icon"
                   /></a>
                 </li>
                 <li>
                   <a href="#" alt="icon"
-                    ><img src="images/icons/instagram_icon.svg" alt="icon"
+                    ><img
+                      class="socialmedia__link"
+                      src="images/icons/instagram_icon.svg"
+                      alt="icon"
                   /></a>
                 </li>
                 <li>
                   <a href="#" alt="icon"
-                    ><img src="images/icons/github_icon.svg" alt="icon"
+                    ><img
+                      class="socialmedia__link"
+                      src="images/icons/github_icon.svg"
+                      alt="icon"
                   /></a>
                 </li>
                 <li>
                   <a href="#" alt="icon"
-                    ><img src="images/icons/rss_icon.svg" alt="icon"
+                    ><img
+                      class="socialmedia__link"
+                      src="images/icons/rss_icon.svg"
+                      alt="icon"
                   /></a>
                 </li>
               </ul>
             </div>
           </div>
         </section>
-
         <section class="tabs">
           <div class="container">
             <nav class="tabs__list">
@@ -135,9 +179,13 @@
                 </div>
                 <a src="#" class="tabs__info-button button">Download</a>
               </div>
-              <div class="tabs__image">
-                <img src="images/statue_image.jpg" alt="statue" />
-              </div>
+              <picture class="tabs__picture">
+                <img
+                  class="tabs__image"
+                  src="images/statue_image.jpg"
+                  alt="statue"
+                />
+              </picture>
             </div>
           </div>
         </section>
@@ -151,8 +199,12 @@
             </div>
             <div class="awesome__columns">
               <div class="awesome__column">
-                <div class="awesome__column-icon">
-                  <img src="images/icons/bulb_icon.svg" alt="ICON" />
+                <div>
+                  <img
+                    class="awesome__column-icon"
+                    src="images/icons/bulb_icon.svg"
+                    alt="ICON"
+                  />
                 </div>
                 <h3 class="awesome__column-title">Thoughtful Design</h3>
                 <p class="awesome__column-text">
@@ -162,8 +214,12 @@
                 </p>
               </div>
               <div class="awesome__column">
-                <div class="awesome__column-icon">
-                  <img src="images/icons/keyboard_icon.svg" alt=" ICON" />
+                <div>
+                  <img
+                    class="awesome__column-icon"
+                    src="images/icons/keyboard_icon.svg"
+                    alt=" ICON"
+                  />
                 </div>
                 <h3 class="awesome__column-title">Thoughtful Design</h3>
                 <p class="awesome__column-text">
@@ -173,8 +229,12 @@
                 </p>
               </div>
               <div class="awesome__column">
-                <div class="awesome__column-icon">
-                  <img src="images/icons/lihtning_icon.svg" alt="ICON" />
+                <div>
+                  <img
+                    class="awesome__column-icon"
+                    src="images/icons/lihtning_icon.svg"
+                    alt="ICON"
+                  />
                 </div>
                 <h3 class="awesome__column-title">Thoughtful Design</h3>
                 <p class="awesome__column-text">
@@ -309,7 +369,119 @@
             </div>
           </div>
         </section>
+        <section class="design">
+          <div class="container">
+            <div class="design__header block__header">
+              <h2 class="design__title block__title">STYLISH AXURE DESIGN</h2>
+              <p class="design__subtitle block__subtitle">
+                Use the sections you need, remove the ones you don't. Create
+                gorgeous prototypes faster than ever!
+              </p>
+            </div>
+            <div><a href="#" class="design__button button">Download</a></div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="container">
+            <div class="contact__header block__header">
+              <h2 class="contact__header-title block__title">contact us</h2>
+              <p class="contact__header-subtitle block__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+            <form class="contact__form" action="">
+              <div class="contact__form-inputs">
+                <div class="contact__form-userinfo">
+                  <input
+                    class="contact__form-name form__input"
+                    type="text"
+                    placeholder="Name"
+                  />
+                  <input
+                    class="contact__form-email form__input"
+                    type="text"
+                    placeholder="Email"
+                  />
+                  <input
+                    class="contact__form-password form__input"
+                    type="password"
+                    placeholder="Password"
+                  />
+                </div>
+                <textarea
+                  class="contact__form-usermessage form__input"
+                  name="Message"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button class="contact__form-button button">Send Message</button>
+            </form>
+          </div>
+        </section>
       </main>
+      <footer class="footer">
+        <div class="container">
+          <ul class="socialmedia__links social__links">
+            <li>
+              <a href="#" alt="icon"
+                ><img
+                  class="socialmedia__link"
+                  src="images/icons/facebook_icon.svg"
+                  alt="icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#" alt="icon"
+                ><img
+                  class="socialmedia__link"
+                  src="images/icons/twitter_icon.svg"
+                  alt="icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#" alt="icon"
+                ><img
+                  class="socialmedia__link"
+                  src="images/icons/linkedin_icon.svg"
+                  alt="icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#" alt="icon"
+                ><img
+                  class="socialmedia__link"
+                  src="images/icons/pinterest_icon.svg"
+                  alt="icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#" alt="icon"
+                ><img
+                  class="socialmedia__link"
+                  src="images/icons/instagram_icon.svg"
+                  alt="icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#" alt="icon"
+                ><img
+                  class="socialmedia__link"
+                  src="images/icons/github_icon.svg"
+                  alt="icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#" alt="icon"
+                ><img
+                  class="socialmedia__link"
+                  src="images/icons/rss_icon.svg"
+                  alt="icon"
+              /></a>
+            </li>
+          </ul>
+          <p class="footer__copyright">© 2015 Axure Themes</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
