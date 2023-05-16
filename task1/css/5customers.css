@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: 33%;
 }
 .customers__review-content {
   display: flex;
@@ -63,4 +62,42 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+@media (max-width: 1040px) {
+  .customers__review-content {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .customers__name {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .customers__position {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 880px) {
+  .customers__name {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .customers__position {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 770px) {
+  .customers__review:not(:nth-child(2)) {
+    display: none;
+  }
+  .customers__review {
+    width: 100%;
+    align-items: center;
+  }
+  .customers__profile {
+    align-self: flex-start;
+    padding-left: 25px;
+    margin-top: 30px;
+  }
 }

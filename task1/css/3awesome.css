@@ -8,15 +8,41 @@
 .awesome__column {
   max-width: 33%;
 }
+.awesome__column-icon {
+  width: 65%;
+}
 .awesome__column-title {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
-  margin: 0 0 40px 0;
+  margin: 0 0 7% 0;
 }
 .awesome__column-text {
   line-height: 21px;
   font-size: 18px;
-  padding: 0 10px;
+}
+@media (max-width: 1180px) {
+  .awesome__column-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .awesome__column-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 650px) {
+  .awesome__columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .awesome__column {
+    max-width: 80%;
+  }
+  .awesome__column-icon {
+    width: 40%;
+  }
 }

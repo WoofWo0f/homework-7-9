@@ -4,13 +4,13 @@
 }
 .socialmedia__content {
   display: flex;
-  justify-content: space-between;
   padding: 15px 0;
 }
 .socialmedia__info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 50%;
 }
 .socialmedia__title {
   font-family: "Open Sans";
@@ -27,5 +27,33 @@
 .socialmedia__links {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 2%;
+  flex: 1 1 50%;
+}
+.socialmedia__link {
+  transform: scale(0.8);
+  width: 100%;
+}
+@media (max-width: 1070px) {
+  .socialmedia__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .socialmedia__description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .socialmedia__content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+  .socialmedia__info {
+    text-align: center;
+    padding: 0 30px;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
 }

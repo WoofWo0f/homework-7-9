@@ -100,6 +100,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  width: 100%;
   min-height: 100%;
 }
 .container {
@@ -141,11 +142,11 @@ section {
   width: 170px;
   height: 1px;
   bottom: 0;
-  left: 42%;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
   background: #ec7979;
 }
-
 .block__subtitle {
   font-size: 18px;
   line-height: 21px;
@@ -175,4 +176,18 @@ section {
   font-size: 14px;
   line-height: 19px;
   color: #bdbdbd;
+}
+@media (max-width: 1024px) {
+  .block__header {
+    margin-bottom: 20px;
+  }
+  .block__title {
+    font-size: 24px;
+    line-height: 28px;
+    height: 90px;
+  }
+  .block__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

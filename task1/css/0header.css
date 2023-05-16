@@ -9,6 +9,7 @@
   color: #fff;
   max-width: 1225px;
   margin: auto;
+  padding: 30px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -22,8 +23,24 @@
   display: flex;
   justify-content: space-between;
   gap: 60px;
-  margin-right: 23px;
 }
 .header__menu-link {
   max-width: 114px;
+}
+.header__burger {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .header {
+    height: 56px;
+    z-index: 2;
+  }
+  .header__menu {
+    display: none;
+    position: relative;
+  }
+  .header__burger {
+    display: block;
+  }
 }

@@ -1,5 +1,5 @@
-.pricing {
-  height: 95vh;
+.pricing__header {
+  margin-bottom: 40px;
 }
 .pricing__columns {
   margin-top: 20px;
@@ -10,13 +10,11 @@
   text-align: center;
   gap: 30px;
   width: 100%;
-  height: 100%;
 }
 .pricing__column {
   display: flex;
   flex-direction: column;
   flex-basis: 33%;
-  height: 100%;
 }
 .pricing__column:hover {
   transform: translateY(-20px);
@@ -24,6 +22,7 @@
 }
 
 .pricing__column-item {
+  padding: 10px;
   height: 48%;
   display: flex;
   flex-direction: column;
@@ -52,4 +51,15 @@
   background: #333333;
   color: rgba (255, 255, 255, 0.5);
   line-height: 21px;
+}
+@media (max-width: 800px) {
+  .pricing__column-item {
+    padding: 10px;
+  }
+  .pricing__columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
 }
