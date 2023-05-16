@@ -20,9 +20,8 @@
   margin-bottom: 20px;
 }
 .contact__form-usermessage {
-  height: 215px;
+  height: 220px;
   flex-basis: 50%;
-  align-self: flex-end;
   resize: none;
 }
 .contact__form-button {

@@ -1,11 +1,14 @@
 .design {
-  background: linear-gradient(rgba(2, 1, 1, 0.2), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(2, 1, 1, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/design_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 }
 
+.design__header {
+  margin: 100px 0 0 20px;
+}
 .design__title {
   color: #fff;
   position: relative;
@@ -29,9 +32,14 @@
   max-width: 370px;
   margin: 10% auto 5%;
 }
+@media (max-width: 1024px) {
+  .design__header {
+    margin: 20px 0;
+  }
+}
 @media (max-width: 450px) {
   .design__header {
-    margin: 50px;
+    margin: 50px 0;
   }
   .design__button {
     margin-bottom: 50px;
